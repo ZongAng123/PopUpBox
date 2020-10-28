@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1975FAE3254949D100EDC233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAE2254949D100EDC233 /* AppDelegate.m */; };
-		1975FAE6254949D100EDC233 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAE5254949D100EDC233 /* SceneDelegate.m */; };
 		1975FAE9254949D100EDC233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAE8254949D100EDC233 /* ViewController.m */; };
 		1975FAEC254949D100EDC233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1975FAEA254949D100EDC233 /* Main.storyboard */; };
 		1975FAEE254949D400EDC233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1975FAED254949D400EDC233 /* Assets.xcassets */; };
@@ -16,6 +15,7 @@
 		1975FAF4254949D400EDC233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAF3254949D400EDC233 /* main.m */; };
 		1975FAFE254949D400EDC233 /* PopTanChuangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAFD254949D400EDC233 /* PopTanChuangTests.m */; };
 		1975FB09254949D400EDC233 /* PopTanChuangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FB08254949D400EDC233 /* PopTanChuangUITests.m */; };
+		1975FB2225494A5800EDC233 /* ZAPopTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FB2125494A5800EDC233 /* ZAPopTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		1975FADE254949D100EDC233 /* PopTanChuang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopTanChuang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1975FAE1254949D100EDC233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1975FAE2254949D100EDC233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1975FAE4254949D100EDC233 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		1975FAE5254949D100EDC233 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		1975FAE7254949D100EDC233 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1975FAE8254949D100EDC233 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1975FAEB254949D100EDC233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		1975FB04254949D400EDC233 /* PopTanChuangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTanChuangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1975FB08254949D400EDC233 /* PopTanChuangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTanChuangUITests.m; sourceTree = "<group>"; };
 		1975FB0A254949D400EDC233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1975FB2025494A5800EDC233 /* ZAPopTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAPopTool.h; sourceTree = "<group>"; };
+		1975FB2125494A5800EDC233 /* ZAPopTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAPopTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +104,9 @@
 		1975FAE0254949D100EDC233 /* PopTanChuang */ = {
 			isa = PBXGroup;
 			children = (
+				1975FB1F25494A3000EDC233 /* ZAPoTools */,
 				1975FAE1254949D100EDC233 /* AppDelegate.h */,
 				1975FAE2254949D100EDC233 /* AppDelegate.m */,
-				1975FAE4254949D100EDC233 /* SceneDelegate.h */,
-				1975FAE5254949D100EDC233 /* SceneDelegate.m */,
 				1975FAE7254949D100EDC233 /* ViewController.h */,
 				1975FAE8254949D100EDC233 /* ViewController.m */,
 				1975FAEA254949D100EDC233 /* Main.storyboard */,
@@ -135,6 +134,15 @@
 				1975FB0A254949D400EDC233 /* Info.plist */,
 			);
 			path = PopTanChuangUITests;
+			sourceTree = "<group>";
+		};
+		1975FB1F25494A3000EDC233 /* ZAPoTools */ = {
+			isa = PBXGroup;
+			children = (
+				1975FB2025494A5800EDC233 /* ZAPopTool.h */,
+				1975FB2125494A5800EDC233 /* ZAPopTool.m */,
+			);
+			path = ZAPoTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +276,8 @@
 			files = (
 				1975FAE9254949D100EDC233 /* ViewController.m in Sources */,
 				1975FAE3254949D100EDC233 /* AppDelegate.m in Sources */,
+				1975FB2225494A5800EDC233 /* ZAPopTool.m in Sources */,
 				1975FAF4254949D400EDC233 /* main.m in Sources */,
-				1975FAE6254949D100EDC233 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A9MKRFMF3;
 				INFOPLIST_FILE = PopTanChuang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A9MKRFMF3;
 				INFOPLIST_FILE = PopTanChuang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
