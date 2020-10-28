@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1975FAE3254949D100EDC233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAE2254949D100EDC233 /* AppDelegate.m */; };
+		1975FAE6254949D100EDC233 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAE5254949D100EDC233 /* SceneDelegate.m */; };
+		1975FAE9254949D100EDC233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAE8254949D100EDC233 /* ViewController.m */; };
+		1975FAEC254949D100EDC233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1975FAEA254949D100EDC233 /* Main.storyboard */; };
+		1975FAEE254949D400EDC233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1975FAED254949D400EDC233 /* Assets.xcassets */; };
+		1975FAF1254949D400EDC233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1975FAEF254949D400EDC233 /* LaunchScreen.storyboard */; };
+		1975FAF4254949D400EDC233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAF3254949D400EDC233 /* main.m */; };
+		1975FAFE254949D400EDC233 /* PopTanChuangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FAFD254949D400EDC233 /* PopTanChuangTests.m */; };
+		1975FB09254949D400EDC233 /* PopTanChuangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975FB08254949D400EDC233 /* PopTanChuangUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1975FAFA254949D400EDC233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1975FAD6254949D100EDC233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1975FADD254949D100EDC233;
+			remoteInfo = PopTanChuang;
+		};
+		1975FB05254949D400EDC233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1975FAD6254949D100EDC233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1975FADD254949D100EDC233;
+			remoteInfo = PopTanChuang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1975FADE254949D100EDC233 /* PopTanChuang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopTanChuang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1975FAE1254949D100EDC233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1975FAE2254949D100EDC233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1975FAE4254949D100EDC233 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1975FAE5254949D100EDC233 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1975FAE7254949D100EDC233 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1975FAE8254949D100EDC233 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1975FAEB254949D100EDC233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1975FAED254949D400EDC233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1975FAF0254949D400EDC233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1975FAF2254949D400EDC233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1975FAF3254949D400EDC233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1975FAF9254949D400EDC233 /* PopTanChuangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTanChuangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1975FAFD254949D400EDC233 /* PopTanChuangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTanChuangTests.m; sourceTree = "<group>"; };
+		1975FAFF254949D400EDC233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1975FB04254949D400EDC233 /* PopTanChuangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTanChuangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1975FB08254949D400EDC233 /* PopTanChuangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTanChuangUITests.m; sourceTree = "<group>"; };
+		1975FB0A254949D400EDC233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1975FADB254949D100EDC233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975FAF6254949D400EDC233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975FB01254949D400EDC233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1975FAD5254949D100EDC233 = {
+			isa = PBXGroup;
+			children = (
+				1975FAE0254949D100EDC233 /* PopTanChuang */,
+				1975FAFC254949D400EDC233 /* PopTanChuangTests */,
+				1975FB07254949D400EDC233 /* PopTanChuangUITests */,
+				1975FADF254949D100EDC233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1975FADF254949D100EDC233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1975FADE254949D100EDC233 /* PopTanChuang.app */,
+				1975FAF9254949D400EDC233 /* PopTanChuangTests.xctest */,
+				1975FB04254949D400EDC233 /* PopTanChuangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1975FAE0254949D100EDC233 /* PopTanChuang */ = {
+			isa = PBXGroup;
+			children = (
+				1975FAE1254949D100EDC233 /* AppDelegate.h */,
+				1975FAE2254949D100EDC233 /* AppDelegate.m */,
+				1975FAE4254949D100EDC233 /* SceneDelegate.h */,
+				1975FAE5254949D100EDC233 /* SceneDelegate.m */,
+				1975FAE7254949D100EDC233 /* ViewController.h */,
+				1975FAE8254949D100EDC233 /* ViewController.m */,
+				1975FAEA254949D100EDC233 /* Main.storyboard */,
+				1975FAED254949D400EDC233 /* Assets.xcassets */,
+				1975FAEF254949D400EDC233 /* LaunchScreen.storyboard */,
+				1975FAF2254949D400EDC233 /* Info.plist */,
+				1975FAF3254949D400EDC233 /* main.m */,
+			);
+			path = PopTanChuang;
+			sourceTree = "<group>";
+		};
+		1975FAFC254949D400EDC233 /* PopTanChuangTests */ = {
+			isa = PBXGroup;
+			children = (
+				1975FAFD254949D400EDC233 /* PopTanChuangTests.m */,
+				1975FAFF254949D400EDC233 /* Info.plist */,
+			);
+			path = PopTanChuangTests;
+			sourceTree = "<group>";
+		};
+		1975FB07254949D400EDC233 /* PopTanChuangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1975FB08254949D400EDC233 /* PopTanChuangUITests.m */,
+				1975FB0A254949D400EDC233 /* Info.plist */,
+			);
+			path = PopTanChuangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1975FADD254949D100EDC233 /* PopTanChuang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1975FB0D254949D400EDC233 /* Build configuration list for PBXNativeTarget "PopTanChuang" */;
+			buildPhases = (
+				1975FADA254949D100EDC233 /* Sources */,
+				1975FADB254949D100EDC233 /* Frameworks */,
+				1975FADC254949D100EDC233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopTanChuang;
+			productName = PopTanChuang;
+			productReference = 1975FADE254949D100EDC233 /* PopTanChuang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1975FAF8254949D400EDC233 /* PopTanChuangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1975FB10254949D400EDC233 /* Build configuration list for PBXNativeTarget "PopTanChuangTests" */;
+			buildPhases = (
+				1975FAF5254949D400EDC233 /* Sources */,
+				1975FAF6254949D400EDC233 /* Frameworks */,
+				1975FAF7254949D400EDC233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1975FAFB254949D400EDC233 /* PBXTargetDependency */,
+			);
+			name = PopTanChuangTests;
+			productName = PopTanChuangTests;
+			productReference = 1975FAF9254949D400EDC233 /* PopTanChuangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1975FB03254949D400EDC233 /* PopTanChuangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1975FB13254949D400EDC233 /* Build configuration list for PBXNativeTarget "PopTanChuangUITests" */;
+			buildPhases = (
+				1975FB00254949D400EDC233 /* Sources */,
+				1975FB01254949D400EDC233 /* Frameworks */,
+				1975FB02254949D400EDC233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1975FB06254949D400EDC233 /* PBXTargetDependency */,
+			);
+			name = PopTanChuangUITests;
+			productName = PopTanChuangUITests;
+			productReference = 1975FB04254949D400EDC233 /* PopTanChuangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1975FAD6254949D100EDC233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					1975FADD254949D100EDC233 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1975FAF8254949D400EDC233 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1975FADD254949D100EDC233;
+					};
+					1975FB03254949D400EDC233 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1975FADD254949D100EDC233;
+					};
+				};
+			};
+			buildConfigurationList = 1975FAD9254949D100EDC233 /* Build configuration list for PBXProject "PopTanChuang" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1975FAD5254949D100EDC233;
+			productRefGroup = 1975FADF254949D100EDC233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1975FADD254949D100EDC233 /* PopTanChuang */,
+				1975FAF8254949D400EDC233 /* PopTanChuangTests */,
+				1975FB03254949D400EDC233 /* PopTanChuangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1975FADC254949D100EDC233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1975FAF1254949D400EDC233 /* LaunchScreen.storyboard in Resources */,
+				1975FAEE254949D400EDC233 /* Assets.xcassets in Resources */,
+				1975FAEC254949D100EDC233 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975FAF7254949D400EDC233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975FB02254949D400EDC233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1975FADA254949D100EDC233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1975FAE9254949D100EDC233 /* ViewController.m in Sources */,
+				1975FAE3254949D100EDC233 /* AppDelegate.m in Sources */,
+				1975FAF4254949D400EDC233 /* main.m in Sources */,
+				1975FAE6254949D100EDC233 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975FAF5254949D400EDC233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1975FAFE254949D400EDC233 /* PopTanChuangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975FB00254949D400EDC233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1975FB09254949D400EDC233 /* PopTanChuangUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1975FAFB254949D400EDC233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1975FADD254949D100EDC233 /* PopTanChuang */;
+			targetProxy = 1975FAFA254949D400EDC233 /* PBXContainerItemProxy */;
+		};
+		1975FB06254949D400EDC233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1975FADD254949D100EDC233 /* PopTanChuang */;
+			targetProxy = 1975FB05254949D400EDC233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1975FAEA254949D100EDC233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1975FAEB254949D100EDC233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1975FAEF254949D400EDC233 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1975FAF0254949D400EDC233 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1975FB0B254949D400EDC233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1975FB0C254949D400EDC233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1975FB0E254949D400EDC233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				INFOPLIST_FILE = PopTanChuang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zongang.PopTanChuang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1975FB0F254949D400EDC233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				INFOPLIST_FILE = PopTanChuang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zongang.PopTanChuang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1975FB11254949D400EDC233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				INFOPLIST_FILE = PopTanChuangTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zongang.PopTanChuangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopTanChuang.app/PopTanChuang";
+			};
+			name = Debug;
+		};
+		1975FB12254949D400EDC233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				INFOPLIST_FILE = PopTanChuangTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zongang.PopTanChuangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopTanChuang.app/PopTanChuang";
+			};
+			name = Release;
+		};
+		1975FB14254949D400EDC233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				INFOPLIST_FILE = PopTanChuangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zongang.PopTanChuangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopTanChuang;
+			};
+			name = Debug;
+		};
+		1975FB15254949D400EDC233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				INFOPLIST_FILE = PopTanChuangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zongang.PopTanChuangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopTanChuang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1975FAD9254949D100EDC233 /* Build configuration list for PBXProject "PopTanChuang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1975FB0B254949D400EDC233 /* Debug */,
+				1975FB0C254949D400EDC233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1975FB0D254949D400EDC233 /* Build configuration list for PBXNativeTarget "PopTanChuang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1975FB0E254949D400EDC233 /* Debug */,
+				1975FB0F254949D400EDC233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1975FB10254949D400EDC233 /* Build configuration list for PBXNativeTarget "PopTanChuangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1975FB11254949D400EDC233 /* Debug */,
+				1975FB12254949D400EDC233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1975FB13254949D400EDC233 /* Build configuration list for PBXNativeTarget "PopTanChuangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1975FB14254949D400EDC233 /* Debug */,
+				1975FB15254949D400EDC233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1975FAD6254949D100EDC233 /* Project object */;
+}
